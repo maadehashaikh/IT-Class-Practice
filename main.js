@@ -14,9 +14,23 @@ var num1 = false;
 if (NaN) {
     console.log("num1 is printed now as it is true");
 }
-else if (true) {
+else if (null) {
     console.log("num1 is printed now as it is false");
 }
 else {
     console.log("its else condition");
+}
+var day = "Wednesday";
+switch (day) {
+    case "Monday":
+        console.log("Its monday's class");
+        break;
+    case "Tuesday":
+        console.log("Its tuesday's class");
+        break;
+    case "Wednesday":
+        console.log("Its wednesday's class");
+        break;
+    case "Sunday":
+        console.log("Its sunday's class its my class");
 }

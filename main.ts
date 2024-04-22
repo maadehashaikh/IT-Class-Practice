@@ -26,3 +26,18 @@ else if(null){
 else{
   console.log("its else condition");
 }
+
+let day = "Wednesday";
+switch (day){
+  case "Monday":
+    console.log("Its monday's class");
+    break;
+  case "Tuesday":
+    console.log("Its tuesday's class");
+    break;  
+  case "Wednesday":
+    console.log("Its wednesday's class");
+    break;  
+  case "Sunday":
+    console.log("Its sunday's class its my class");  
+}
